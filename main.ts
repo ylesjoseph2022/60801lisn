@@ -1,11 +1,16 @@
 input.onSound(DetectedSound.Loud, function () {
+    開關 = !(開關)
     if (true) {
-    	
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
     } else {
-    	
+        basic.clearScreen()
     }
 })
-input.setSoundThreshold(SoundThreshold.Loud, 80)
-basic.forever(function () {
-	
-})
+let 開關 = false
+input.setSoundThreshold(SoundThreshold.Loud, 104)
