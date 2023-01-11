@@ -5,6 +5,7 @@ input.onSound(DetectedSound.Loud, function () {
     	
     }
 })
+input.setSoundThreshold(SoundThreshold.Loud, 80)
 basic.forever(function () {
 	
 })
