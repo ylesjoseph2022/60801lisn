@@ -1,6 +1,6 @@
 input.onSound(DetectedSound.Loud, function () {
     開關 = !(開關)
-    if (true) {
+    if (開關) {
         basic.showLeds(`
             # # # # #
             # # # # #
